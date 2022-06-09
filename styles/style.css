@@ -1,0 +1,131 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+    background-image: url(../images/background.png);
+    background-repeat:no-repeat;
+ 
+    
+}
+
+  .container{
+    display: flex;
+    background-color: white;
+    width: 700px;
+    height: 430px; 
+    border-radius: 15px;
+    position:absolute;
+   
+}
+
+
+.interfazimg{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 350px;
+  width: 350px;
+  object-fit: contain;
+  bottom: -5%;
+  right: -55% ;
+  position: relative;
+   
+}
+#texto{
+  
+  bottom:-32%;
+  right: 34%;  
+  position: relative;
+  text-align: justify
+}
+#titulo{
+  
+  bottom: -22px; 
+  right: 50%;  
+  position: relative;
+   
+}
+#retroceso{
+  
+  float:right;
+  text-align: left;
+  position:fixed;
+  bottom: 50%;
+  right: 30%;
+  bottom: 22%;
+  cursor: pointer;
+  color: white;
+  background: #3a51d5;
+  border-radius:  15px;
+  font-size: 21px;
+  padding: 2px;
+   
+}
+
+
+ #contenedor1{
+  visibility:visible;
+}
+
+#contenedor2{
+  visibility:hidden;
+}
+
+ 
+
+
+img{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 350px;
+  width: 350px;
+  object-fit: contain;
+  bottom: -5%;
+  right: -25% ;
+  position: relative;
+   
+}
+
+.prev{
+  float:right;
+  text-align: left;
+  position:fixed;
+  bottom: 50%;
+  right: 30%;
+  bottom:50%;
+  cursor: pointer;
+  color: white;
+  background: #3a51d5;
+  border-radius:  15px;
+  font-size: 21px;
+  padding: 2px;
+}
+
+.next{
+  float:left;
+  text-align: center;
+  position:fixed;
+  left: 30%;
+  bottom: 50%;
+  cursor: pointer;
+  color: white;
+  background: #3a51d5;
+  border-radius:  15px;
+  font-size: 21px; 
+  padding: 2px;
+    
+}
+
+.nombreClash{
+  position:fixed;
+    bottom: 25%;
+    right: 49% ;
+    
+}
