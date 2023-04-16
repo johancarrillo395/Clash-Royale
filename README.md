@@ -52,10 +52,7 @@ Uno de los juegos que más ha impactado a los jovenes de hoy en día necesita un
 
 Hay muchas formas de alojar su proyecto de forma gratuita, Algunas opciones son:
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
-- [Surge](https://surge.sh/) <br><br>
+https://comfy-cocada-5caef9.netlify.app/
 
 ###	Pasos para la entrega, despliegue y lecturas complementarias
 
